@@ -1,0 +1,33 @@
+basics:
+  numbers:
+    ☐ add
+    ☐ divisors
+    ☐ is-prime
+    ☐ factors
+  arrays:
+    ☐ only-positives
+    ☐ sum
+    ☐ sums
+    ☐ intersection
+    ☐ min-max-average
+  strings:
+    ☐ is-palindrom
+    ☐ word-distance
+  
+objects:
+  ☐ Stack
+  ☐ Queue @todo
+  ☐ Dictionary @todo
+  ☐ Calculator @todo
+    ☐ Parser
+      ☐ Token
+        ☐ Value
+        ☐ Operator
+    ☐ Expression
+      ☐ Operation
+        ☐ Addition
+        ☐ Substraction
+        ☐ Multiplication
+        ☐ Division
+dom:
+  ☐ ...
