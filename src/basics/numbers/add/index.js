@@ -4,7 +4,7 @@
  * @returns {Number} the sum of `a` and `b`
  */
 function add(a, b) {
-  // write your code here
+  return a+b
 }
 
 module.exports = add;
