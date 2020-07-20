@@ -5,6 +5,13 @@
  * isPalindrom('abcba') //=> true
  * isPalindrom('abcdba') //=> false
  */
-function isPalindrom(word) {}
+function isPalindrom(word) {
+    var reversed = word.split("").reverse().join("");
+    if (word == reversed) {
+        return true
+    }
+    return false
+}
+
 
 module.exports = isPalindrom;
