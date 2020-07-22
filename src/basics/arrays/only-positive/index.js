@@ -6,11 +6,6 @@
  */
 function onlyPositivve(numbers) {
     var result = [];
-    for (let i = 0; i < numbers.length; i++) {
-        if (numbers[i] >= 0) {
-            result.push(numbers[i] )
-        }
-    }
-    return result
-}
+    return numbers.filter( value => value >= 0)
+  }
 module.exports = onlyPositivve;
