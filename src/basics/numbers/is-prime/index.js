@@ -15,8 +15,8 @@ function isPrime(n) {
           return false ;
           break;
       }
-      return true ;
-  } 
+  }
+  return true ; 
 }
 
 module.exports = isPrime;

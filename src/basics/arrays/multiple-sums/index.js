@@ -15,5 +15,4 @@ function sums(numbers) {
     }
     return resulat
 }
-
 module.exports = sums;
