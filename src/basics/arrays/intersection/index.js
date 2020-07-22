@@ -6,14 +6,11 @@
  */
 function intersection(listA, listB) {
     arrayNumb = [];
-    for (let i = 0; i < listA.length; i++) {
-        for (let j = 0; j < listB.length; j++) {
-            if (listA[i]==listB[j]) {
-               arrayNumb.push(listA[i]) 
-            }   
+    listA.filter(function (item) {
+        if (listB.includes(item)) {
+            arrayNumb.push(item);
         }
-        
-    }
+    });
     return arrayNumb ;
 }
 
