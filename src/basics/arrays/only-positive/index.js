@@ -5,7 +5,6 @@
  * Bonus: try to implement this without a `for` or `while` loop
  */
 function onlyPositivve(numbers) {
-    var result = [];
     return numbers.filter( value => value >= 0)
   }
 module.exports = onlyPositivve;
