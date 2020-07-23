@@ -7,6 +7,21 @@
  * distance('abc', 'adc') //=> 1
  * distance('abc', 'cde') //=> 3
  */
-function distance(word) {}
+function distance(wordA,wordB) {
+    var counter = 0 ;
+    var len = wordA.length ;
+    for (let i = 0; i < len ; i++) {
+        for (let j = i; j < len; j++) {
+            if (wordA[i]==wordB[j]) {
+                break ;
+            }else{
+                counter += 1 ;
+                break;
+            }
+            
+        }
+        
+    }return counter 
+}
 
 module.exports = distance;

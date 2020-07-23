@@ -5,6 +5,9 @@
  * Try to re-use the `sum` function implemented before.
  * Bonus: try to implement this without a `for` or `while` loop
  */
-function sums(numbers) {}
+function sums(numbers) {
+    return numbers.map( value => value.reduce( (a,b) => a+b ,0));
+        
+    }
 
 module.exports = sums;

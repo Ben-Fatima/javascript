@@ -1,7 +1,10 @@
 function main(container) {
   const btn = container.querySelector("#say-hi");
   const div = container.querySelector("#result");
-  // write a code that shows "Hello World" in the `div` when `btn` is clicked
+  btn.addEventListener("click",hello)
+  function hello() {
+    div.innerHTML = "Hello World"
+  }
 }
 
 module.exports = main;
